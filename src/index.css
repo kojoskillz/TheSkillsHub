@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to bottom,rgb(0, 0, 0)20%,rgb(0, 0, 0)60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+}
+
+.nav{
+    margin-left: 45rem;
+    margin-top: .2rem;
+}
+
+.bgImg{
+    width: 45rem;
+    height: 35rem;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    border-radius: 9px;
+    border-style: none;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img2{
+    width: 66rem;
+    height: 45rem;
+}
+
+.lawn_color{
+    background:linear-gradient(to right,rgb(194, 11, 244),rgb(34, 215, 252));
+    color:linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-webkit-background-clip: text;
+    -moz-webkit-text-fill-color: transparent;
+
+  }
+
+  .lawn_color_bg{
+    background:linear-gradient(to right,rgb(81, 145, 255),rgb(81,200,255));
+  }
+
+
+  .btn{
+    font-size: 17px;
+    padding: 0.5rem 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 9px;
+  }
+
+  .btn:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(194, 11, 244) 0%,
+    rgb(34, 215, 252) 100%)
+  }
+
+  .btn:active{
+    transform: translate(0em,0.2em);
+  }
