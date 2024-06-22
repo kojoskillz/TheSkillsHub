@@ -22,9 +22,9 @@ body{
 }
 
 .bgImg{
-    width: 45rem;
+    width: 60rem;
     height: 35rem;
-    margin-right: 40px;
+    margin-right: -40px;
     background-repeat: no-repeat;
     border-radius: 9px;
     border-style: none;
@@ -49,7 +49,7 @@ body{
   }
 
   .lawn_color_bg{
-    background:linear-gradient(to right,rgb(81, 145, 255),rgb(81,200,255));
+    background:linear-gradient(to right,rgb(81, 145, 255),rgb(88, 202, 255));
   }
 
 
@@ -58,17 +58,116 @@ body{
     padding: 0.5rem 2em;
     border: transparent;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    background: dodgerblue;
+    background: rgb(88, 202, 255);
     color: white;
     border-radius: 9px;
   }
 
   .btn:hover{
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgb(194, 11, 244) 0%,
-    rgb(34, 215, 252) 100%)
+    background: linear-gradient(90deg, rgb(206, 31, 255) 0%,
+    rgb(50, 221, 255) 100%)
   }
 
   .btn:active{
     transform: translate(0em,0.2em);
   }
+
+  .word1{
+    font-family: 'Righteous', cursive;
+    font-size: 85px;
+  
+  }
+
+  .word2{
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+  
+  }
+  .word3{
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+  
+  }
+  .word4{
+    font-family: 'Righteous', cursive;
+    font-size: 150px;
+    text-align: center;
+    margin-left: 8rem;
+    display: grid;
+    place-content: center;
+    color: rgba(128, 128, 128, 0.086);
+    position: absolute;
+    margin-top: -7.7rem;
+  
+  }
+  .word5{
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    font-style: italic;
+   
+  
+  }
+
+  .img3{
+     box-shadow: 0 0 90px rgba(214, 143, 255, 0.33);
+     -webkit-transform: rotate(2.6deg) ;
+                  
+    
+  }
+
+
+  .code1{
+    margin-top: 37rem;
+  }
+
+  .code2{
+    margin-top: -10rem;
+    margin-left: 60rem;
+
+  }
+
+  .containerX{
+    width: 30rem;
+    height: 18rem;
+    font-size: 20px;
+    margin: 30px;
+  }
+
+  .card {
+    width: 30rem;
+    height: 44rem;
+    background-image: linear-gradient(163deg, rgb(206, 31, 255) 0%,
+    rgb(50, 221, 255) 100%);
+    border-radius: 20px;
+    transition: all .3s;
+  }
+  
+  .card2 {
+    width: 30rem;
+    height: 44rem;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all .2s;
+  }
+  
+  .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+  }
+
+
+  .rahul{
+    height: 34rem;
+  }
+
+ .imgI{
+     height: 55rem;
+     width: 38rem;
+     margin-left: 60px;
+     margin-top: 100px;
+ }
