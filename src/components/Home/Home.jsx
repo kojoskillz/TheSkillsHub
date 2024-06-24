@@ -16,7 +16,8 @@ import img3 from '../Home/Images/img3.jpg'
 import code1 from '../Home/Images/code (1).png'
 import imgI from '../Home/Images/imgI.png'
 import kojo from '../Home/Images/kojo.png'
-import rahul from '../Home/Images/rahul.png'
+import rahul from '../Home/Images/rahul.png';
+
 
 
 
@@ -298,7 +299,7 @@ const Home = () => {
 
 
 
-                <div className='m-auto grid place-content-center pb-40'  
+                <div className='m-auto grid place-content-center mt-32 pb-40'  
                          data-aos="fade"
                          data-aos-duration="2000">
                      <h1 className='word4  text-center'>
@@ -310,7 +311,7 @@ const Home = () => {
 
 {/* profile of team card */}
 {/* dev.kojo */}
-<div className='m-auto grid place-content-center gap-48'>
+<div className='m-auto grid place-content-center gap-20'>
 
 
                      <div className="card" 
@@ -339,6 +340,62 @@ const Home = () => {
                      
                 </div>
 
+<div>
+     <h1 className='text-white font-bold text-6xl pb-10 text-center  word1'>
+        Achievements
+     </h1>
+
+{/* container for Achievements */}
+<div className='m-auto text-center pb-20'>
+
+<div className='text-white font-bold '>
+      <img src="" alt="" />
+      <h2 className='text-5xl lawn_color word2'>
+           Students         
+      </h2>
+      <p className='text-4xl'>
+         110+
+      </p>
+</div>
+<br />
+<br />
+<div className='text-white font-bold '>
+      <img src="" alt="" />
+      <h2 className='text-5xl lawn_color word2'>
+           Awards         
+      </h2>
+      <p className='text-4xl'>
+         5+
+      </p>
+</div>
+<br />
+<br />
+<div className='text-white font-bold '>
+      <img src="" alt="" />
+      <h2 className='text-5xl lawn_color word2'>
+           Projects         
+      </h2>
+      <p className='text-4xl'>
+         50+
+      </p>
+</div>
+<br />
+<br />
+</div>
+  
+</div>
+
+<div className='pb-48 text-center'>
+    <h1 className='text-white text-center text-4xl font-semibold ' >
+      <span className='lawn_color word2'> Learn By Doing </span> <br /> 
+    </h1>
+    <p className='text-white font-medium text-2xl mt-10'>
+        With our hands on learning projects you <br /> gain practical experience, practice and skills of real world applications
+    </p>
+</div>
+
+
+{/* ends */}
           </div>
 
 
