@@ -17,6 +17,9 @@ import code1 from '../Home/Images/code (1).png'
 import imgI from '../Home/Images/imgI.png'
 import kojo from '../Home/Images/kojo.png'
 import rahul from '../Home/Images/rahul.png';
+import img4 from '../Home/Images/img4.jpg';
+import img6 from '../Home/Images/img6.jpg';
+import img9 from '../Home/Images/img9.jpeg';
 
 
 
@@ -91,7 +94,7 @@ const Home = () => {
                         <div className='bg-white/5 w-96 h-96 absolute z-1  rounded-full '></div>
                         <div className='bg-white/5 w-72 h-72 absolute z-1 mt-10 rounded-full '></div>
             </div>
-       <div   data-aos="fade"
+       <div   data-aos="zoom-in"
               data-aos-duration="2000">
 
               <img src={htmlImg} alt="" />
@@ -100,7 +103,7 @@ const Home = () => {
               </h3>
        </div>
                         
-          <div   data-aos="fade"
+          <div   data-aos="zoom-in"
                  data-aos-duration="2000">
 
               <img src={cssImg} alt="" /> 
@@ -109,7 +112,7 @@ const Home = () => {
               </h3>
           </div>                 
        
-          <div   data-aos="fade"
+          <div   data-aos="zoom-in"
                  data-aos-duration="2000">
                   
             <img src={javascriptImg} alt="" />  
@@ -118,7 +121,7 @@ const Home = () => {
             </h3>
         </div>
         
-       <div   data-aos="fade"
+       <div   data-aos="zoom-in"
               data-aos-duration="2000">
 
                <img src={reactImg} alt="" />
@@ -127,7 +130,7 @@ const Home = () => {
                </h3>
            </div>
 
-        <div   data-aos="fade"
+        <div   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={githubImg} alt="" />
@@ -136,7 +139,7 @@ const Home = () => {
             </h3>
         </div>
           
-        <div   data-aos="fade"
+        <div   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={gitImg} alt="" />
@@ -147,7 +150,7 @@ const Home = () => {
         
       
         
-        <div   data-aos="fade"
+        <div   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={tailwindcssImg} alt="" />
@@ -285,7 +288,7 @@ const Home = () => {
 
 </div>
                   {/* imageI */}
-                 <div    data-aos="fade"
+                 <div    data-aos="fade-left"
                          data-aos-duration="2500">
                      <img src={imgI} alt="" className='imgI'/>
                  </div>
@@ -341,7 +344,7 @@ const Home = () => {
                 </div>
 
 <div>
-     <h1 className='text-white font-bold text-6xl pb-10 text-center  word1'>
+     <h1 className='text-white font-bold text-6xl pb-10 text-center  word1' data-aos="zoom-in" data-aos-duration="1500">
         Achievements
      </h1>
 
@@ -350,21 +353,21 @@ const Home = () => {
 
 <div className='text-white font-bold '>
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2'>
+      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
            Students         
       </h2>
-      <p className='text-4xl'>
+      <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
          110+
       </p>
 </div>
 <br />
 <br />
-<div className='text-white font-bold '>
+<div className='text-white font-bold ' >
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2'>
+      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
            Awards         
       </h2>
-      <p className='text-4xl'>
+      <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
          5+
       </p>
 </div>
@@ -372,11 +375,11 @@ const Home = () => {
 <br />
 <div className='text-white font-bold '>
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2'>
+      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
            Projects         
       </h2>
-      <p className='text-4xl'>
-         50+
+      <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
+         20+
       </p>
 </div>
 <br />
@@ -386,12 +389,30 @@ const Home = () => {
 </div>
 
 <div className='pb-48 text-center'>
-    <h1 className='text-white text-center text-4xl font-semibold ' >
+    <h1 className='text-white text-center text-4xl font-semibold '  data-aos="fade-in" data-aos-duration="2000">
       <span className='lawn_color word2'> Learn By Doing </span> <br /> 
     </h1>
-    <p className='text-white font-medium text-2xl mt-10'>
-        With our hands on learning projects you <br /> gain practical experience, practice and skills of real world applications
-    </p>
+
+    <div className='flex mt-16 p-20'>
+      <div>
+          <p className='text-white font-medium text-4xl p-10 mt-10'  data-aos="zoom-in" data-aos-duration="1500">
+              With our hands on learning projects you <br /> gain practical experience, practice and skills of real world applications.
+          </p>
+          <button type="submit" className='bg-[#26D2FC] w-32 p-3 rounded-xl mt-5 text-white font-bold'  data-aos="fade" data-aos-duration="1500">Register</button>
+
+      </div>
+        
+    {/* images */}
+          <div className='rounded-lg grid grid-cols-2 place-content-center'>
+              <img src={img4} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1500"/>
+              <img src={img6} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1250"/>
+              <img src={img9} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1000"/>
+          </div>
+
+    </div>
+    
+
+
 </div>
 
 
