@@ -7,6 +7,7 @@ import githubImg from '../Home/Images/github.png'
 import gitImg from '../Home/Images/git.png'
 import javascriptImg from '../Home/Images/javascript (1).png'
 import tailwindcssImg from '../Home/Images/tailwindcss.png'
+import img1 from '../Home/Images/img1.jpg'
 import img2 from '../Home/Images/img2.jpg'
 import imgX from '../Home/Images/seo.png'
 import imgY from '../Home/Images/responsive-design.png'
@@ -20,6 +21,7 @@ import rahul from '../Home/Images/rahul.png';
 import img4 from '../Home/Images/img4.jpg';
 import img6 from '../Home/Images/img6.jpg';
 import img9 from '../Home/Images/img9.jpeg';
+import img10 from '../Home/Images/img10.jpg';
 
 
 
@@ -388,7 +390,7 @@ const Home = () => {
   
 </div>
 
-<div className='pb-48 text-center'>
+<div className='pb-16   text-center'>
     <h1 className='text-white text-center text-4xl font-semibold '  data-aos="fade-in" data-aos-duration="2000">
       <span className='lawn_color word2'> Learn By Doing </span> <br /> 
     </h1>
@@ -410,17 +412,57 @@ const Home = () => {
           </div>
 
     </div>
-    
-
 
 </div>
 
 
 {/* ends */}
+
+
+{/* courses */}
+<div className='pb-56'>
+      <h1 className='text-center word3 lawn_color pb-10 '>Programming Course</h1>
+      <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl '>
+         Welcome to our programming course, where you'll unlock the power of code and transform your ideas intop reality. This course
+         will guide you through the fundamentals of programming, teaching you the skills and concepts needed to succeed in todays tech-driven world. 
+         Get ready to learn,create and innovate with code.
+      </h3>
+{/* container_frontend*/}
+<div className='flex place-content-center gap-12   '>
+{/* frontend */}
+      <div>      
+            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
+                    <img src={img1} alt=""  className=''/>
+                    <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Front-End Web Developmennt</h1>
+                    <p className='font-semi-bold text-xl text-white mt-2 ml-3'> 6 months</p>
+                    <p className='font-semi-bold text-xl text-white mt-2 ml-3'>Pricing: $120</p>
+            </div>
+                  <button type="submit" className='p-3 w-32 m-auto rounded-2xl text-lg border-[#6F6DF1] border-2 mt-8 text-white grid place-content-center'>Register</button>
+      </div>
+{/* ends */}
+
+
+{/* backend */}
+      <div>
+            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
+                    <img src={img10} alt=""  className=''/>
+                    <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Back-End Web Developmennt</h1>
+                    <p className='font-semi-bold text-xl text-white mt-2 ml-3'>6 months</p>
+                    <p className='font-semi-bold text-xl text-white mt-2 ml-3'>Pricing: $150</p>
+            </div>
+            <button type="submit" className='p-3 w-32 m-auto rounded-2xl text-lg border-[#6F6DF1] border-2 mt-8 text-white grid place-content-center'>Register</button>
+      </div>
+  {/* ends */}
+
+</div>
+  
+
+
+
+</div>
+
+
           </div>
-
-
-
 
   )
 }
