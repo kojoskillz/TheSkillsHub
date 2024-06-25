@@ -1,5 +1,4 @@
 import React from 'react';
-import bgImg from '../Home/Images/img1.jpg'
 import reactImg from '../Home/Images/react.png'
 import cssImg from '../Home/Images/css-3.png'
 import htmlImg from '../Home/Images/html-5.png'
@@ -22,8 +21,6 @@ import img4 from '../Home/Images/img4.jpg';
 import img6 from '../Home/Images/img6.jpg';
 import img9 from '../Home/Images/img9.jpeg';
 import img10 from '../Home/Images/img10.jpg';
-
-
 
 
 const Home = () => {
@@ -172,7 +169,7 @@ const Home = () => {
 
            <div className='flex '>
                 <img src={img2} alt="" className='-ml-40 h-72 img2'
-                         data-aos="fade"
+                         data-aos="zoom-in"
                          data-aos-duration="2500" />
                 <div className=' text-white -ml-28 mr-10'>
                     <h2 className='text-white font-bold mb-10 mt-16  text-6xl '>
@@ -312,13 +309,17 @@ const Home = () => {
                      </h1>
                      <h1 className='word1 lawn_color text-center pb-10'>
                         Meet The Team
-                     </h1>
+                     </h1>  
+                      <h1 className='text-white  text-2xl text-center mb-20' data-aos='zoom-in' data-aos-duration='2000'>
+                        Meet our dynamic coding instructors,dedicated to helping you achieve  <br /> your programming goal. Our team will help
+                        you with one-on-one guidance and regular check-ins.
+                      </h1>
+
 
 {/* profile of team card */}
 {/* dev.kojo */}
 <div className='m-auto grid place-content-center gap-20'>
-
-
+     
                      <div className="card" 
                          data-aos="fade"
                          data-aos-duration="2000">
@@ -421,8 +422,8 @@ const Home = () => {
 
 {/* courses */}
 <div className='pb-56'>
-      <h1 className='text-center word3 lawn_color pb-10 '>Programming Course</h1>
-      <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl '>
+      <h1 className='text-center word3 lawn_color pb-10 ' data-aos='fade' data-aos-duration='2000' >Programming Course</h1>
+      <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl ' data-aos='fade' data-aos-duration='2500'>
          Welcome to our programming course, where you'll unlock the power of code and transform your ideas intop reality. This course
          will guide you through the fundamentals of programming, teaching you the skills and concepts needed to succeed in todays tech-driven world. 
          Get ready to learn,create and innovate with code.
@@ -430,7 +431,7 @@ const Home = () => {
 {/* container_frontend*/}
 <div className='flex place-content-center gap-12   '>
 {/* frontend */}
-      <div>      
+      <div data-aos='zoom-in' data-aos-duration='2000'>      
             <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
                     <img src={img1} alt=""  className=''/>
                     <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Front-End Web Developmennt</h1>
@@ -443,7 +444,7 @@ const Home = () => {
 
 
 {/* backend */}
-      <div>
+      <div data-aos='zoom-in' data-aos-duration='2000'>
             <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
                     <img src={img10} alt=""  className=''/>
                     <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Back-End Web Developmennt</h1>
