@@ -21,6 +21,9 @@ import img4 from '../Home/Images/img4.jpg';
 import img6 from '../Home/Images/img6.jpg';
 import img9 from '../Home/Images/img9.jpeg';
 import img10 from '../Home/Images/img10.jpg';
+import face1 from '../Home/Images/face1.jpg';
+import face2 from '../Home/Images/face2.jpg';
+import face3 from '../Home/Images/face3.jpg';
 
 
 const Home = () => {
@@ -424,7 +427,7 @@ const Home = () => {
 <div className='pb-56'>
       <h1 className='text-center word3 lawn_color pb-10 ' data-aos='fade' data-aos-duration='2000' >Programming Course</h1>
       <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl ' data-aos='fade' data-aos-duration='2500'>
-         Welcome to our programming course, where you'll unlock the power of code and transform your ideas intop reality. This course
+         Welcome to our programming course, where you'll unlock the power of code and transform your ideas into reality. This course
          will guide you through the fundamentals of programming, teaching you the skills and concepts needed to succeed in todays tech-driven world. 
          Get ready to learn,create and innovate with code.
       </h3>
@@ -457,8 +460,62 @@ const Home = () => {
 
 </div>
   
+  {/* students testimonials */}
+  <div className='testimonial  w-full bg-[#1A1A1A] rounded-b-3xl mt-32'>
+             <h1 className='word3 text-white  text-center pt-5 mb-20' data-aos='zoom-in' data-aos-duration='2000'>What Our Students Say</h1>
 
 
+{/* containers for testimonials of students */}
+<div className='m-auto grid place-content-center  mt-20 ' data-aos='zoom-in-up' data-aos-duration='2000'>
+    <img src={face1} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200 m-auto w-24 h-24'/>
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg'>
+        <h1 className='text-3xl text-black font-bold '>FrontEnd Engineer</h1>
+        <h2 className='text-2xl text-black font-semibold'>Kofi Johnson</h2>
+        <p className='text-gray-500  font-normal   text-xl pt-5 '>
+          I'm thrilled to have had the opportunity to learn and grow as a frontend developer
+           on TheSkillsHub.The comprehensive resources, and real world projects helped me develop the
+           skills i needed to succeed in my career.
+        </p>
+    </div>
+</div>
+
+<div className='m-auto grid place-content-center mt-20' data-aos='zoom-in-up' data-aos-duration='2000'>
+    <img src={face2} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200 m-auto w-24 h-24'/>
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg'>
+        <h1 className='text-3xl text-black font-bold '>FrontEnd Engineer</h1>
+        <h2 className='text-2xl text-black font-semibold'>Rachael Olamide</h2>
+        <p className='text-gray-500  font-normal text-xl pt-5 '>
+            Thanks to TheSkillsHub learning platform ive been able to launch a successful career as a frontend developer and worked on projects that
+            i love. The platforms emphasis on hands-on-learning  has made me a confident developer.
+        </p>
+    </div>
+</div>
+
+<div className='m-auto grid place-content-center  mt-20 ' data-aos='zoom-in-up' data-aos-duration='2000'>
+    <img src={face3} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200  m-auto w-24 h-24'/>
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg' >
+        <h1 className='text-3xl text-black font-bold '>BackEnd Engineer</h1>
+        <h2 className='text-2xl text-black font-semibold'>Anika Mahika</h2>
+        <p className='text-gray-500  font-normal text-xl pt-5 '>
+           The instructors are friendly and competent.I gained an understanding of HTML,CSS, and JavaScript. I was able to
+           connect with a lovely community of developers that helped me in my course.
+        </p>
+    </div>
+</div>
+
+
+
+  </div>
+
+{/* Frequently_Asked_Questions */}
+<div>
+{/* FAQ_Content */}
+<div>
+    <h1 className='text-white word3 mt-20 text-center '> Frequently Asked Questions</h1>
+</div>
+
+
+</div>
 
 </div>
 
