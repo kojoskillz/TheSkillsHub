@@ -424,7 +424,7 @@ const Home = () => {
 
 
 {/* courses */}
-<div className='pb-56'>
+<div className='pb-56 mt-80'>
       <h1 className='text-center word3 lawn_color pb-10 ' data-aos='fade' data-aos-duration='2000' >Programming Course</h1>
       <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl ' data-aos='fade' data-aos-duration='2500'>
          Welcome to our programming course, where you'll unlock the power of code and transform your ideas into reality. This course
