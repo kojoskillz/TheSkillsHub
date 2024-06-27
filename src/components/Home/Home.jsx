@@ -170,10 +170,10 @@ const Home = () => {
 {/* section3 */}
       <div className='bg-black '>
 
-           <div className='flex '>
+           <div className='flex  '>
                 <img src={img2} alt="" className='-ml-40 h-72 img2'
-                         data-aos="zoom-in"
-                         data-aos-duration="2500" />
+                         data-aos="fade"
+                         data-aos-duration="2000" />
                 <div className=' text-white -ml-28 mr-10'>
                     <h2 className='text-white font-bold mb-10 mt-16  text-6xl '>
                       <span className="lawn_color font-extrabold  text-6xl word3"
