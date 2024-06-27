@@ -409,10 +409,10 @@ const Home = () => {
       </div>
         
     {/* images */}
-          <div className='rounded-lg grid grid-cols-2 place-content-center'>
+          <div className='rounded-lg grid grid-cols-2 gap-10 place-content-center'>
               <img src={img4} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1500"/>
-              <img src={img6} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1250"/>
-              <img src={img9} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1000"/>
+              <img src={img6} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1500"/>
+              <img src={img9} alt="" className='w-[40rem] absolute h-80 object-cover rounded-2xl mt-[28rem] ' data-aos="zoom-in" data-aos-duration="1500"/>
           </div>
 
     </div>
@@ -512,8 +512,8 @@ const Home = () => {
 {/* FAQ_Content */}
 <div>
     <h1 className='text-white word3 mt-20 text-center '> Frequently Asked Questions</h1>
+    
 </div>
-
 
 </div>
 
