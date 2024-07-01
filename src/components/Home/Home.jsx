@@ -37,16 +37,16 @@ const Home = () => {
        <div className=''>
 
 {/* circle design */}
-            <div className='-mt-10'>
+            <div className='-mt-10 circle'>
                       <div className='bg-white/5 w-96 h-96 absolute z-1  rounded-full '></div>
                         <div className='bg-white/5 w-72 h-72 absolute z-1 mt-10 rounded-full '></div>
             </div>
 
             {/* content */}
             <div className='text-center mt-52  m-auto mb-64 '>
-            <h1 className='text-white font-bold mt-24 text-center text-3xl'>
+            <h1 className='text-white font-bold mt-24 text-center text-3xl '>
                           Elevate Your Skills, Elevate Your Career. <br />  Join The Tech Revolution With <br /> 
-                           <span className='lawn_color font-extrabold text-7xl word1'>
+                           <span className='lawn_color font-extrabold text-7xl word1 h1_query'>
                                Web Development Training 
                            </span>
                       </h1>
@@ -65,9 +65,9 @@ const Home = () => {
 
                 <div className='mt-60' data-aos="fade"
                          data-aos-duration="2000">
-                          <img src={code1} alt="" className='absolute w-40 h-40 code1 ' />
-                          <img src={code1} alt="" className='absolute w-40 h-40 code2 ' />
-                      <img src={img3} alt=""  className='m-auto rounded-xl img3  '/>
+                          <img src={code1} alt="" className='absolute w-40 h-40 code1 code1_query' />
+                          <img src={code1} alt="" className='absolute w-40 h-40 code2 code2_query' />
+                      <img src={img3} alt=""  className='m-auto rounded-xl img3 '/>
                 </div>
                       
 
@@ -81,31 +81,31 @@ const Home = () => {
     </div>
 
 {/* section2 */}
-    <div className='bg-black  w-screen  pb-20 m-auto sec2 '>
-         <h1 className=' lawn_color text-center font-bold  pt-5 word2' 
+    <div className='bg-black  w-screen  pb-32 m-auto sec2 '>
+         <h1 className=' lawn_color text-center font-bold  pt-5 word2 skills_query' 
                          data-aos="fade"
                          data-aos-duration="2000">
              Skills You Will Develop
          </h1>
 
-{/* images for Skills */}
-         <div className='grid grid-cols-3 text-white text-center mt-20 w-60  h-60 gap-5 place-content-center m-auto   '>
-          
-{/* circle design */}
-         <div className=' -mt-32 ml-72  absolute'>
+
+   {/* circle design */}
+            <div className=' -mt-32 ml-72  absolute circle_query'>
                         <div className='bg-white/5 w-96 h-96 absolute z-1  rounded-full '></div>
                         <div className='bg-white/5 w-72 h-72 absolute z-1 mt-10 rounded-full '></div>
             </div>
-       <div   data-aos="zoom-in"
+      {/* images for Skills */}     
+         <div className='grid grid-cols-3 text-white text-center mt-28  w-52  h-52 gap-x-28 gap-y-16 place-content-center m-auto skills_logo_query '>    
+       <div  className='w-[6rem] h-[6rem]'  data-aos="zoom-in"
               data-aos-duration="2000">
 
-              <img src={htmlImg} alt="" />
+              <img src={htmlImg} alt=""/>
               <h3>
                 HTML
               </h3>
        </div>
                         
-          <div   data-aos="zoom-in"
+          <div className='w-[6rem] h-[6rem]'   data-aos="zoom-in"
                  data-aos-duration="2000">
 
               <img src={cssImg} alt="" /> 
@@ -114,7 +114,7 @@ const Home = () => {
               </h3>
           </div>                 
        
-          <div   data-aos="zoom-in"
+          <div className='w-[6rem] h-[6rem]'   data-aos="zoom-in"
                  data-aos-duration="2000">
                   
             <img src={javascriptImg} alt="" />  
@@ -123,7 +123,7 @@ const Home = () => {
             </h3>
         </div>
         
-       <div   data-aos="zoom-in"
+       <div  className='w-[6rem] h-[6rem]'  data-aos="zoom-in"
               data-aos-duration="2000">
 
                <img src={reactImg} alt="" />
@@ -132,7 +132,7 @@ const Home = () => {
                </h3>
            </div>
 
-        <div   data-aos="zoom-in"
+        <div className='w-[6rem] h-[6rem]'   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={githubImg} alt="" />
@@ -141,7 +141,7 @@ const Home = () => {
             </h3>
         </div>
           
-        <div   data-aos="zoom-in"
+        <div className='w-[6rem] h-[6rem]'   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={gitImg} alt="" />
@@ -152,7 +152,7 @@ const Home = () => {
         
       
         
-        <div   data-aos="zoom-in"
+        <div className='w-[6rem] h-[6rem]'   data-aos="zoom-in"
                data-aos-duration="2000">
 
             <img src={tailwindcssImg} alt="" />
@@ -170,18 +170,18 @@ const Home = () => {
 {/* section3 */}
       <div className='bg-black '>
 
-           <div className='flex  '>
-                <img src={img2} alt="" className='-ml-40 h-72 img2'
+           <div className='flex choose_query '>
+                <img src={img2} alt="" className='-ml-40 h-72 img2 choose_query_img'
                          data-aos="fade"
                          data-aos-duration="2000" />
-                <div className=' text-white -ml-28 mr-10'>
+                <div className=' text-white -ml-28 mr-10 '>
                     <h2 className='text-white font-bold mb-10 mt-16  text-6xl '>
-                      <span className="lawn_color font-extrabold  text-6xl word3"
+                      <span className="lawn_color font-extrabold  text-6xl word3 choose_query_text"
                          data-aos="fade"
                          data-aos-duration="2000"> Why Choose Us</span>
                     </h2>
 
-                    <ul className='font-thin text-2xl ' 
+                    <ul className='font-thin text-2xl choose_query_content ' 
                          data-aos="fade"
                          data-aos-duration="2000">
                         <div className='flex '>
@@ -218,11 +218,11 @@ const Home = () => {
 
           <div className='pb-20'   data-aos="fade"
                          data-aos-duration="2000">
-                <h2 className='lawn_color word3 mt-5 text-center '>
+                <h2 className='lawn_color word3 mt-5 text-center learn_query_text'>
                    Learn Something New <br /> Today 
                 </h2>         
 
-                <div className='text-gray-200 text-center text-2xl p-16 font-thin  '   data-aos="fade"
+                <div className='text-gray-200 text-center text-2xl p-16 font-thin  learn_query_text2'   data-aos="fade"
                          data-aos-duration="2000">
                       <p>
                         At TheSkillsHub we dont just teach you coding, but also provide hands-on experience, real-world 
@@ -237,11 +237,11 @@ const Home = () => {
 {/* containers for image and content */} 
 {/* card */}
 
-<div className='ml-10 flex'>
+<div className='ml-10 flex learn_query_container'>
 
    
 <div>
-<div className='relative drop-shadow-xl w-64 h-64 grid  containerX overflow-hidden rounded-xl  bg-[#3d3c3d]'>
+<div className='relative drop-shadow-xl w-64 h-64 grid  containerX overflow-hidden rounded-xl  bg-[#3d3c3d] learn_query_containerX'>
                             <div className='absolute grid items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]' 
                              data-aos="fade"
                              data-aos-duration="2000"> 
@@ -256,7 +256,7 @@ const Home = () => {
                             <div className='absolute w-64 h-64 bg-white blur-[50px] -left-1/2 -top-1/2'>
                             </div>
                   </div>
-                  <div className='relative drop-shadow-xl w-64 h-64  containerX overflow-hidden rounded-xl  bg-[#3d3c3d]'>
+                  <div className='relative drop-shadow-xl w-64 h-64  containerX overflow-hidden rounded-xl  bg-[#3d3c3d] learn_query_containerY'>
                             <div className='absolute grid items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]' 
                              data-aos="fade"
                              data-aos-duration="2000"> 
@@ -271,7 +271,7 @@ const Home = () => {
                             <div className='absolute w-64 h-64 bg-white blur-[50px] -left-1/2 -top-1/2'>
                             </div>
                   </div>
-                  <div className='relative drop-shadow-xl w-64 h-64 containerX overflow-hidden rounded-xl  bg-[#3d3c3d]'>
+                  <div className='relative drop-shadow-xl w-64 h-64 containerX overflow-hidden rounded-xl  bg-[#3d3c3d] learn_query_containerY'>
                             <div className='absolute grid items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]' 
                              data-aos="fade"
                              data-aos-duration="2000"> 
@@ -290,9 +290,9 @@ const Home = () => {
 
 </div>
                   {/* imageI */}
-                 <div    data-aos="fade-left"
+                 <div    data-aos="fade-left "
                          data-aos-duration="2500">
-                     <img src={imgI} alt="" className='imgI'/>
+                     <img src={imgI} alt="" className='imgI learn_query_img'/>
                  </div>
 
 
@@ -307,13 +307,13 @@ const Home = () => {
                 <div className='m-auto grid place-content-center mt-32 pb-40'  
                          data-aos="fade"
                          data-aos-duration="2000">
-                     <h1 className='word4  text-center'>
+                     <h1 className='word4  text-center meet_the_team_qeury_shadow'>
                         Meet The Team
                      </h1>
-                     <h1 className='word1 lawn_color text-center pb-10'>
+                     <h1 className='word1 lawn_color text-center pb-10 meet_the_team_qeury'>
                         Meet The Team
                      </h1>  
-                      <h1 className='text-white  text-2xl text-center mb-20' data-aos='zoom-in' data-aos-duration='2000'>
+                      <h1 className='text-white  text-2xl text-center mb-20 meet_the_team_text' data-aos='zoom-in' data-aos-duration='2000'>
                         Meet our dynamic coding instructors,dedicated to helping you achieve  <br /> your programming goal. Our team will help
                         you with one-on-one guidance and regular check-ins.
                       </h1>
@@ -323,34 +323,34 @@ const Home = () => {
 {/* dev.kojo */}
 <div className='m-auto grid place-content-center gap-20'>
      
-                     <div className="card" 
+                     <div className="card  kojo_query" 
                          data-aos="fade"
                          data-aos-duration="2000">
-                        <div className="card2">
+                        <div className="card2  kojo_query">
                           <img src={kojo} alt="" />
-                          <h1 className='text-center text-white  font-bold text-4xl mt-5'>Kwadwo E. Nyarko</h1>
+                          <h1 className='text-center text-white  font-bold text-4xl mt-5 kojo_query_text'>Kwadwo E. Nyarko</h1>
                           <p className='text-white font-semibold text-2xl text-center '>Software Engineer</p>
                           <p className='text-white font-semibold text-xl text-center italic'>Co-Founder</p>
                         </div>
                      </div>
 
 {/* dev.rahul */}
-                     <div className="card" 
+                     <div className="card rahul_query" 
                        data-aos="fade"
                        data-aos-duration="2000">
-                        <div className="card2">
-                          <img src={rahul} alt="" className='rahul' />
-                          <h1 className='text-center text-white  font-bold text-4xl mt-5'>Rahul Dev</h1>
+                        <div className="card2 rahul_query">
+                          <img src={rahul} alt="" className='rahul rahul_query_img' />
+                          <h1 className='text-center text-white  font-bold text-4xl mt-5 kojo_query_text'>Rahul Dev</h1>
                           <p className='text-white font-semibold text-2xl text-center '>Fullstack Developer</p>
                           <p className='text-white font-semibold text-xl text-center italic'>Co-Founder</p>
                         </div>
                      </div>
 </div>
-                     
+             
                 </div>
 
 <div>
-     <h1 className='text-white font-bold text-6xl pb-10 text-center  word1' data-aos="zoom-in" data-aos-duration="1500">
+     <h1 className='text-white font-bold text-6xl pb-10 text-center  word1  achievement_query' data-aos="zoom-in" data-aos-duration="1500">
         Achievements
      </h1>
 
@@ -359,7 +359,7 @@ const Home = () => {
 
 <div className='text-white font-bold '>
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
+      <h2 className='text-5xl lawn_color word2 student_query' data-aos="zoom-in" data-aos-duration="1500">
            Students         
       </h2>
       <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
@@ -370,7 +370,7 @@ const Home = () => {
 <br />
 <div className='text-white font-bold ' >
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
+      <h2 className='text-5xl lawn_color word2 awards_query' data-aos="zoom-in" data-aos-duration="1500">
            Awards         
       </h2>
       <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
@@ -381,7 +381,7 @@ const Home = () => {
 <br />
 <div className='text-white font-bold '>
       <img src="" alt="" />
-      <h2 className='text-5xl lawn_color word2' data-aos="zoom-in" data-aos-duration="1500">
+      <h2 className='text-5xl lawn_color word2 projects_query' data-aos="zoom-in" data-aos-duration="1500">
            Projects         
       </h2>
       <p className='text-4xl' data-aos="fade-up" data-aos-duration="1500">
@@ -399,20 +399,20 @@ const Home = () => {
       <span className='lawn_color word2'> Learn By Doing </span> <br /> 
     </h1>
 
-    <div className='flex mt-16 p-20'>
+    <div className='flex mt-16 p-20 achieve_query'>
       <div>
-          <p className='text-white font-medium text-4xl p-10 mt-10'  data-aos="zoom-in" data-aos-duration="1500">
+          <p className='text-white font-medium text-4xl p-10 mt-10 textq'  data-aos="zoom-in" data-aos-duration="1500">
               With our hands on learning projects you <br /> gain practical experience, practice and skills of real world applications.
           </p>
-          <button type="submit" className='bg-[#26D2FC] w-32 p-3 rounded-xl mt-5 text-white font-bold'  data-aos="fade" data-aos-duration="1500">Register</button>
+          <button type="submit" className='bg-[#26D2FC] w-32 p-3 rounded-xl mt-5 text-white font-bold btn_query'  data-aos="fade" data-aos-duration="1500">Register</button>
 
       </div>
         
     {/* images */}
-          <div className='rounded-lg grid grid-cols-2 gap-10 place-content-center'>
-              <img src={img4} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1500"/>
-              <img src={img6} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg ' data-aos="zoom-in" data-aos-duration="1500"/>
-              <img src={img9} alt="" className='w-[40rem] absolute h-80 object-cover rounded-2xl mt-[28rem] ' data-aos="zoom-in" data-aos-duration="1500"/>
+          <div className='rounded-lg grid grid-cols-2 gap-10 place-content-center imgIII '>
+              <img src={img4} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg imgx' data-aos="zoom-in" data-aos-duration="1500"/>
+              <img src={img6} alt="" className='w-64  h-80 object-cover rounded-2xl learnImg imgy' data-aos="zoom-in" data-aos-duration="1500"/>
+              <img src={img9} alt="" className='w-[40rem] absolute h-80 object-cover rounded-2xl mt-[28rem] imgz' data-aos="zoom-in" data-aos-duration="1500"/>
           </div>
 
     </div>
@@ -424,18 +424,18 @@ const Home = () => {
 
 
 {/* courses */}
-<div className='pb-56 mt-80'>
-      <h1 className='text-center word3 lawn_color pb-10 ' data-aos='fade' data-aos-duration='2000' >Programming Course</h1>
+<div className='pb-56 mt-80 course_query'>
+      <h1 className='text-center word3 lawn_color pb-10  course_query_text' data-aos='fade' data-aos-duration='2000' >Programming Course</h1>
       <h3 className='text-white font-semi-bold text-center mb-20 p-5 text-2xl ' data-aos='fade' data-aos-duration='2500'>
          Welcome to our programming course, where you'll unlock the power of code and transform your ideas into reality. This course
          will guide you through the fundamentals of programming, teaching you the skills and concepts needed to succeed in todays tech-driven world. 
          Get ready to learn,create and innovate with code.
       </h3>
 {/* container_frontend*/}
-<div className='flex place-content-center gap-12   '>
+<div className='flex place-content-center gap-12   course_container'>
 {/* frontend */}
       <div data-aos='zoom-in' data-aos-duration='2000'>      
-            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
+            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl  course_container1'>
                     <img src={img1} alt=""  className=''/>
                     <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Front-End Web Developmennt</h1>
                     <p className='font-semi-bold text-xl text-white mt-2 ml-3'> 6 months</p>
@@ -448,7 +448,7 @@ const Home = () => {
 
 {/* backend */}
       <div data-aos='zoom-in' data-aos-duration='2000'>
-            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl'>
+            <div className='bg-[#6F6DF1] h-96 w-96 border-[#6F6DF1] border-2 rounded-2xl course_container2'>
                     <img src={img10} alt=""  className=''/>
                     <h1 className='font-bold text-2xl text-white mt-2 ml-3 '>Back-End Web Developmennt</h1>
                     <p className='font-semi-bold text-xl text-white mt-2 ml-3'>6 months</p>
@@ -461,14 +461,14 @@ const Home = () => {
 </div>
   
   {/* students testimonials */}
-  <div className='testimonial  w-full bg-[#1A1A1A] rounded-b-3xl mt-32'>
+  <div className='testimonial  w-full bg-[#1A1A1A] rounded-b-3xl mt-32  testimonial_container'>
              <h1 className='word3 text-white  text-center pt-5 mb-20' data-aos='zoom-in' data-aos-duration='2000'>What Our Students Say</h1>
 
 
 {/* containers for testimonials of students */}
 <div className='m-auto grid place-content-center  mt-20 ' data-aos='zoom-in-up' data-aos-duration='2000'>
     <img src={face1} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200 m-auto w-24 h-24'/>
-    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg'>
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg testimonial1'>
         <h1 className='text-3xl text-black font-bold '>FrontEnd Engineer</h1>
         <h2 className='text-2xl text-black font-semibold'>Kofi Johnson</h2>
         <p className='text-gray-500  font-normal   text-xl pt-5 '>
@@ -479,9 +479,9 @@ const Home = () => {
     </div>
 </div>
 
-<div className='m-auto grid place-content-center mt-20' data-aos='zoom-in-up' data-aos-duration='2000'>
+<div className='m-auto grid place-content-center mt-20 ' data-aos='zoom-in-up' data-aos-duration='2000'>
     <img src={face2} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200 m-auto w-24 h-24'/>
-    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg'>
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg testimonial2'>
         <h1 className='text-3xl text-black font-bold '>FrontEnd Engineer</h1>
         <h2 className='text-2xl text-black font-semibold'>Rachael Olamide</h2>
         <p className='text-gray-500  font-normal text-xl pt-5 '>
@@ -493,7 +493,7 @@ const Home = () => {
 
 <div className='m-auto grid place-content-center  mt-20 ' data-aos='zoom-in-up' data-aos-duration='2000'>
     <img src={face3} alt="" className='rounded-full z-10 -mb-5 border-4 border-slate-200  m-auto w-24 h-24'/>
-    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg' >
+    <div className='h-80 w-[32rem] bg-slate-200 p-5 rounded-lg testimonial3' >
         <h1 className='text-3xl text-black font-bold '>BackEnd Engineer</h1>
         <h2 className='text-2xl text-black font-semibold'>Anika Mahika</h2>
         <p className='text-gray-500  font-normal text-xl pt-5 '>
