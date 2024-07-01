@@ -175,6 +175,311 @@ body{
      width: 40rem;
  }
 
+ 
 .testimonial{
      height: 108rem;
+}
+
+
+/* media_querises */
+@media screen and (max-width:720px), (min-width:420px) { 
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+/* nav */
+        .nav_text{
+        display: none;
+       }
+
+       .nav_logo{
+        font-size: 20px;
+        margin-left: 10px
+       }
+
+/* home */
+      .circle{
+        margin-top: -98px;
+}      
+       .h1_query{
+          font-size: 55px;
+       }
+
+  .code1_query{
+    width: 4rem;
+    height: 5.5rem;
+    margin-top: 14rem;
+  }     
+
+  .code2_query{
+    width: 4rem;
+    height: 5.5rem;
+    margin-top:-5rem ;
+    margin-left: 280px;
+  }     
+
+  
+  .skills_query{
+    font-size: 48px;
+    display: grid;
+    text-align: center;
+ }
+
+ .circle_query{
+   margin-left: 10px;
+ }
+
+
+ .skills_logo_query{
+       display: grid;
+       place-content: center;
+       justify-content: center;
+       align-items: center;
+       margin-left: 26px;
+       margin-top: 180px;
+ }
+
+ .choose_query{
+      display: grid;
+      place-content: center;
+ }
+
+
+ .choose_query_img{
+      width: 30rem;
+      height: 27rem;
+      margin: auto;
+      object-fit: cover;
+
+ }
+
+ .choose_query_text{
+      text-align: center;
+      font-size: 50px;
+      margin-left: 140px;
+      display: grid;
+      
+ }
+
+ .choose_query_content{
+      display: grid;
+      margin-left: 170px;
+      gap: 10px;
+    }
+
+    .learn_query_text{
+      text-align: center;
+      font-size: 45px;
+      display: grid;
+      margin: 1px;
+      margin-top: 100px;
+    }
+    
+    .learn_query_text2{
+        font-size: 25px;
+        margin: -30px;
+        text-align: left;
+    }
+
+    .learn_query_container{
+       display: grid;
+       margin: auto;
+
+    }
+
+    .learn_query_container2{
+       width: 390rem;
+    }
+
+    .learn_query_containerX{
+       width: 20rem;
+       height: 25rem;
+    }
+
+    .learn_query_containerY{
+       width: 20rem;
+       height: 25rem;
+    }
+
+    .learn_query_containerZ{
+       width: 20rem;
+       height: 25rem;
+    }
+    .learn_query_img{
+        margin-top: -70px;
+        height: 45rem;
+        object-fit: cover;
+        margin: auto;
+    }
+
+
+    .meet_the_team_qeury_shadow{
+        font-size: 90px;
+        margin: -100px;
+        margin-top: -220px;
+        text-align: center;
+    }
+
+    .meet_the_team_qeury{
+      font-size: 90px;
+      margin: -10px;
+    }
+
+    .meet_the_team_text{
+      font-size:25px;
+      margin-left: 60px;
+      margin-right: 60px;
+      text-align: left;
+ 
+    }
+
+
+    .kojo_query{
+        width: 20rem;
+        height: 34rem;
+        margin: auto;
+    }
+
+    .rahul_query{
+      width: 20rem;
+      height: 34rem;
+      margin: auto;
+    }
+
+    .rahul_query_img{
+      height:24.5rem ;
+    }
+
+    .kojo_query_text{
+      font-size: 30px;
+    }
+
+    .kojo_query_text{
+      font-size: 30px;
+    }
+
+    .achievement_query{
+      font-size: 45px;
+    }
+
+    .student_query{
+        font-size: 40px;
+    }
+    .awards_query{
+        font-size: 40px;
+    }
+    .projects_query{
+        font-size: 40px;
+    }
+
+    .textq{
+        margin-top: -8rem;
+        text-align: left;
+        margin-left: -25px;
+        margin: -100px;
+        font-size: 25px;
+    
+      }
+      .btn_query{
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+      }
+
+      .achieve_query{
+        display: grid;
+      }
+
+      .imgIII{
+           display: grid;
+           place-content: center;
+       
+
+      }
+     
+      .imgx{
+        width: 9rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: auto;
+        margin-left: -3.5rem;
+        position: absolute;
+      }
+     
+      .imgy{
+        width: 10rem;
+        height: 15rem;
+        object-fit: cover;
+        margin: auto;
+        margin-left: 6.5rem;
+        position: absolute;
+      }
+     
+      .imgz{
+        width: 20rem;
+        height: 15rem;
+        object-fit: contain;
+        margin-top: 16rem;
+        margin-left: -3rem;
+      }
+
+.course_query{
+       margin-top: 30rem;
+     
+}
+
+.course_query_text{
+     font-size: 45px;
+}
+
+.course_container{
+      display: grid;
+      gap: 100px;
+    
+}
+
+.course_container1{
+   width: 18rem;
+   margin: auto;
+}
+
+.course_container2{
+   width: 18rem;
+   margin: auto;
+}
+
+.testimonial_container{
+    padding-bottom: 135rem;
+}
+
+.testimonial1{
+   display: grid;
+   place-content: center;
+   width: 20rem;
+   height: 25rem;
+}
+
+.testimonial2{
+   display: grid;
+   place-content: center;
+   width: 20rem;
+   height: 25rem;
+}
+
+.testimonial3{
+   display: grid;
+   place-content: center;
+   width: 20rem;
+   height: 25rem;
+}
+
+
+       /* footer */
+
+
+
+
+       
 }
