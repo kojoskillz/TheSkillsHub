@@ -187,6 +187,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+   }
+
+   body{
+    overflow-x: hidden;
    }
 
 
@@ -206,12 +211,18 @@ body{
 }      
        .h1_query{
           font-size: 55px;
+          
+       }
+       
+
+       .img_query{
+        width: 19.7rem;
        }
 
   .code1_query{
     width: 4rem;
     height: 5.5rem;
-    margin-top: 14rem;
+    margin-top: 11rem;
   }     
 
   .code2_query{
@@ -226,10 +237,22 @@ body{
     font-size: 48px;
     display: grid;
     text-align: center;
+    margin-top: 120px;
  }
 
  .circle_query{
    margin-left: 10px;
+   width: 10rem;
+ }
+
+ .circle_queryY{
+  width: 15rem;
+  height: 15em;
+ }
+
+ .circle_queryX{
+  width: 20rem;
+  height: 20em;
  }
 
 
@@ -477,9 +500,26 @@ body{
 
 
        /* footer */
+.footer{
+    display: grid;
+}
+.footerX{
+  margin-top: 5px;
+}
+
+.footerY{
+  display: grid;
+  margin-left: 30px;
+  
+}
+
+.footerZ{
+  display: grid;
+  margin-left: 30px;
+  
+}
 
 
 
 
-       
 }
