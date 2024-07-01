@@ -43,7 +43,7 @@ const Home = () => {
             </div>
 
             {/* content */}
-            <div className='text-center mt-52  m-auto mb-64 '>
+            <div className='text-center mt-52  m-auto mb-64h 1_queryX'>
             <h1 className='text-white font-bold mt-24 text-center text-3xl '>
                           Elevate Your Skills, Elevate Your Career. <br />  Join The Tech Revolution With <br /> 
                            <span className='lawn_color font-extrabold text-7xl word1 h1_query'>
@@ -67,7 +67,7 @@ const Home = () => {
                          data-aos-duration="2000">
                           <img src={code1} alt="" className='absolute w-40 h-40 code1 code1_query' />
                           <img src={code1} alt="" className='absolute w-40 h-40 code2 code2_query' />
-                      <img src={img3} alt=""  className='m-auto rounded-xl img3 '/>
+                      <img src={img3} alt=""  className='m-auto rounded-xl img3 img_query'/>
                 </div>
                       
 
@@ -91,8 +91,8 @@ const Home = () => {
 
    {/* circle design */}
             <div className=' -mt-32 ml-72  absolute circle_query'>
-                        <div className='bg-white/5 w-96 h-96 absolute z-1  rounded-full '></div>
-                        <div className='bg-white/5 w-72 h-72 absolute z-1 mt-10 rounded-full '></div>
+                        <div className='bg-white/5 w-96 h-96 absolute z-1  rounded-full circle_queryX'></div>
+                        <div className='bg-white/5 w-72 h-72 absolute z-1 mt-10 rounded-full circle_queryY'></div>
             </div>
       {/* images for Skills */}     
          <div className='grid grid-cols-3 text-white text-center mt-28  w-52  h-52 gap-x-28 gap-y-16 place-content-center m-auto skills_logo_query '>    
