@@ -10,14 +10,14 @@ const Footer = () => {
       <hr  className='bg-gray-700/20 h-1'/>
   </div>
     
- <div className='flex'>
- <div className='grid'>
+ <div className='flex footer'>
+ <div className='grid '>
     <h1 className='lawn_color word2'> TheSkillsHub</h1>
-      <p className='text-gray-200/90 font-bold text-xl -mt-12 '>Helping you become a skilled coder. <br />Building better career in tech. </p>
+      <p className='text-gray-200/90 font-bold text-xl -mt-12 footerX'>Helping you become a skilled coder. <br />Building better career in tech. </p>
   
  </div>
   {/* Quick_Links */}
-<div className='mt-20 ml-60 '>
+<div className='mt-20 ml-60 footerY'>
      <h1 className='text-white font-bold   text-2xl  '>
         Quick Links
      </h1>
@@ -29,7 +29,7 @@ const Footer = () => {
 
 </div>
 {/* contacts */}
-<div className='mt-20 ml-60 '>
+<div className='mt-20 ml-60 footerZ '>
      <h1 className='text-white font-bold   text-2xl  '>
         Contact
      </h1>
