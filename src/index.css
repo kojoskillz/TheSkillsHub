@@ -181,8 +181,8 @@ body{
 }
 
 
-/* media_querises */
-@media screen and (max-width:720px), (min-width:420px) { 
+/* media_queries */
+@media screen and (max-width:720px) { 
    *{
     margin: 0;
     padding: 0;
@@ -196,9 +196,7 @@ body{
 
 
 /* nav */
-        .nav_text{
-        display: none;
-       }
+       
 
        .nav_logo{
         font-size: 20px;
