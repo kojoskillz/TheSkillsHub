@@ -5,7 +5,7 @@ const nav = () => {
 <div>
    <nav className='flex'>
           {/* logo */}
-        <h1 className='bg-orange text-3xl font-extrabold text-white ml-10 nav_logo'>
+        <h1 className='text-3xl font-extrabold text-white ml-10 nav_logo'>
             TheSkillzHub
         </h1>
 
